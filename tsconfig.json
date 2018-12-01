@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "allowJs": true,
+        "sourceRoot": "src"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "**/*.test.ts"
+    ]
+}
